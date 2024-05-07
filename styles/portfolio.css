@@ -5,6 +5,36 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  color: rgb(33, 37, 41);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3,
@@ -153,5 +183,9 @@ p {
 
   .portrait {
     max-width: 90%;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
