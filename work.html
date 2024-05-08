@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lexi Frost – Work</title>
+    <meta
+      name="description"
+      content="Check out examples of work built by Lexi Frost, frontend developer based in Germany."
+    />
+    <title>Work – Lexi Frost – Frontend Developer</title>
 
     <link
       rel="stylesheet"
@@ -26,12 +30,40 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Home">
+          <img
+            src="images/logo.png"
+            alt="Lexi Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/logo_small.png"
+            alt="Lexi Logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About Lexi">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Lexi's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Lexi">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="content">
         <h1 class="mb-5">Check out my recent work</h1>
         <div class="row">
           <div class="col-lg-6 mb-4">
-            <img src="/images/weather_lex.png" alt="" class="img-fluid mb-3" />
+            <img
+              src="/images/weather_lex.png"
+              alt="Weather app preview"
+              class="img-fluid mb-3"
+            />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
@@ -39,24 +71,81 @@
           </div>
 
           <div class="col-lg-6 mb-4">
-            <img src="/images/yoga_lex.png" alt="" class="img-fluid mb-3" />
+            <img
+              src="/images/yoga_lex.png"
+              alt="Yoga project preview"
+              class="img-fluid mb-3"
+            />
             <h3 class="text-center m-0">Yoga Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
 
           <div class="col-lg-6 mb-4">
-            <img src="/images/dictionary.png" alt="" class="img-fluid mb-3" />
+            <img
+              src="/images/dictionary.png"
+              alt="Dictionary app preview"
+              class="img-fluid mb-3"
+            />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
 
           <div class="col-lg-6 mb-4">
-            <img src="/images/translation.png" alt="" class="img-fluid mb-3" />
+            <img
+              src="/images/translation.png"
+              alt="Translation app preview"
+              class="img-fluid mb-3"
+            />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact Lexi"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <a
+          href="mailto:itslexifrost@gmail.com"
+          class="email-link mb-5 d-flex justify-content-center"
+          title="Email Lexi"
+          >itslexifrost@gmail.com</a
+        >
+        <div class="social-links mb-5">
+          <a
+            href="https://github.com/lexifrost"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/alexandra-frost/"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Lexi Frost and is
+          <a
+            href="https://github.com/lexifrost/shecodes-portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>

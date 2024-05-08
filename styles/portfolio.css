@@ -142,15 +142,13 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer h4 {
+footer h3 {
   font-size: 48px;
 }
 
 footer .email-link {
   color: var(--text-default-color);
-  display: block;
   font-size: 24px;
-  text-align: center;
   transition: all 100ms ease-in-out;
 }
 
@@ -164,9 +162,9 @@ footer .social-links {
 }
 
 footer .social-links a {
-  background-color: var(--secondary-color);
-  border-radius: 50px;
-  color: var(--branding-color);
+  background-color: var(--branding-color);
+  border-radius: 50%;
+  color: #fff;
   margin: 0 20px;
   padding: 10px 14px;
   font-size: 18px;
@@ -174,8 +172,9 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  background-color: var(--branding-color);
-  color: var(--secondary-color);
+  background-color: #fff;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
 }
 
 .weather-img {
@@ -183,7 +182,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 60px;
+  padding: 70px 60px;
 }
 
 .content-container h2 {

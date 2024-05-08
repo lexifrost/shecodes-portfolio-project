@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lexi Frost – Portfolio</title>
+    <meta
+      name="description"
+      content="Lexi Frost is a frontend developer based in Munich, Germany."
+    />
+    <title>Lexi Frost | Frontend developer</title>
 
     <link
       rel="stylesheet"
@@ -29,50 +33,48 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" alt="" class="logo d-none d-md-block" />
+        <a href="/" title="Home">
+          <img
+            src="images/logo.png"
+            alt="Lexi Logo"
+            class="logo d-none d-md-block"
+          />
           <img
             src="images/logo_small.png"
-            alt=""
+            alt="Lexi Logo"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About Lexi">About</a></li>
+          <li><a href="/work.html" title="Lexi's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Lexi">Contact</a></li>
         </ul>
       </nav>
     </div>
+
     <div class="hero">
       <p>Hi I am</p>
       <h1>Lexi Frost</h1>
       <h2>Frontend developer based in Germany.</h2>
-      <div><a href="#" class="btn btn-branding">Get in touch</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Get in touch</a
+        >
+      </div>
     </div>
 
     <p class="text-center m-5">Recent work</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yoga_lex.png" alt="Yoga project" class="img-fluid" />
+          <img
+            src="images/weather_lex.png"
+            alt="Weather project preview"
+            class="img-fluid weather-img"
+          />
         </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Yoga Project</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="#" class="btn btn-branding-outline">View project</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Weather Project</h2>
@@ -82,40 +84,80 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">View project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View details</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Yoga Project</h2>
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View details</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
-            src="images/weather_lex.png"
-            alt="Weather project"
-            class="img-fluid weather-img"
+            src="images/yoga_lex.png"
+            alt="Yoga app preview"
+            class="img-fluid"
           />
         </div>
       </div>
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="#" class="btn btn-branding mt-4">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact Lexi"
+              >Contact me</a
+            >
           </div>
         </div>
 
-        <a href="mailto:itslexifrost@gmail.com" class="email-link mb-5"
+        <a
+          href="mailto:itslexifrost@gmail.com"
+          class="email-link mb-5 d-flex justify-content-center"
+          title="Email Lexi"
           >itslexifrost@gmail.com</a
         >
         <div class="social-links mb-5">
-          <a href="https://github.com/lexifrost" target="_blank"
+          <a
+            href="https://github.com/lexifrost"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.linkedin.com/in/alexandra-frost/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/alexandra-frost/"
+            target="_blank"
+            title="Linkedin Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Lexi Frost and is
+          <a
+            href="https://github.com/lexifrost/shecodes-portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
     <script
