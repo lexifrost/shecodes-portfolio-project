@@ -84,7 +84,7 @@ p {
 
 .hero p {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -238,6 +238,10 @@ footer .social-links a:hover {
   .content {
     padding: 0;
     text-align: center;
+  }
+
+  .content h1 {
+    font-size: 46px;
   }
 
   .portrait {
