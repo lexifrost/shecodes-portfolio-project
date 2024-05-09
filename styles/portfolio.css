@@ -10,12 +10,15 @@ body {
   color: var(--text-default-color);
 }
 
-.logo {
-  max-height: 40px;
-}
-
 nav {
   padding: 20px 0;
+}
+
+nav .logo-text {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 42px;
 }
 
 nav ul {
@@ -38,6 +41,7 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+  text-decoration: none;
 }
 
 h1,
@@ -210,6 +214,7 @@ footer .social-links a:hover {
 
 .portrait {
   border-radius: 15px;
+  max-width: 80%;
 }
 
 @media (max-width: 992px) {
