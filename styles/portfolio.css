@@ -2,8 +2,8 @@
   --branding-color: #c19898;
   --secondary-color: #ebebe3;
   --text-default-color: #2b2b28;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Rubik", sans-serif;
+  --default-font-family: "Roboto Mono", monospace;
 }
 
 body {
